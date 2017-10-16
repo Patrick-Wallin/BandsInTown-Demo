@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BandsInTown</string>
+    <string name="base_search_url_address" formatted="false">https://news.bandsintown.com/</string>
+    <string name="base_detail_url_address" formatted="false">https://rest.bandsintown.com/</string>
+    <string name="photo_url_address" formatted="false">http://photos.bandsintown.com/thumb/%d.jpeg</string>
+    <string name="detail_url_address" formatted="false">https://rest.bandsintown.com/artists/%s?app_id=88888</string>
+
+    <string name="loading">Loading...</string>
+    <string name="loading_data">Loading data...</string>
+    <string name="loadingandwait">Loading... Please wait</string>
+
+    <string name="no_internet_connection_title">No Internet Connection</string>
+    <string name="no_internet_connection_message">It looks like your internet connection is off. \n Please turn it on and try again</string>
+    <string name="error_message_title">Error</string>
+
+    <string name="artists">ARTISTS</string>
+    <string name="favorites">FAVORITES</string>
+    <string-array name="main_menu_tab_title">
+        <item>@string/artists</item>
+        <item>@string/favorites</item>
+    </string-array>
+
+    <string name="search_hint">Search</string>
+    <string name="title_activity_artist_detail">ArtistDetailActivity</string>
+
+    <string name="artist_name">artist_name</string>
+    <string name="image_transition">image_transition</string>
+    <string name="favorite_data">favorite_data</string>
+</resources>
